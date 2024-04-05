@@ -1,0 +1,32 @@
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-duxw4ynm-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-duxw4ynm-pack/WEB-INF/components.xml]
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-ev415jie-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-ev415jie-pack/WEB-INF/components.xml]
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-ib44izcy-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-ib44izcy-pack/WEB-INF/components.xml]
+INFO  - ComponentsLoader           - /tmp/components/sakai-t5ijlzoq-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-t5ijlzoq-pack/WEB-INF/components.xml]
+INFO  - SakaiApplicationContext    - Refreshing org.sakaiproject.util.SakaiApplicationContext@8f4ea7c: startup date [Wed Mar 27 19:20:53 CET 2024]; root of context hierarchy
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-z-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-z-pack/WEB-INF/components.xml]
+INFO  - ComponentsLoader           - /tmp/components/sakai-b-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-b-pack/WEB-INF/components.xml]
+INFO  - ComponentsLoader           - /tmp/components/sakai-a-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-a-pack/WEB-INF/components.xml]
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-91qjz2xj-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-91qjz2xj-pack/WEB-INF/components.xml]
+INFO  - SakaiApplicationContext    - Refreshing org.sakaiproject.util.SakaiApplicationContext@2034b64c: startup date [Wed Mar 27 19:20:54 CET 2024]; root of context hierarchy
+INFO  - ComponentsLoader           - /tmp/components/sakai-z2szuzul-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-z2szuzul-pack/WEB-INF/components.xml]
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-test-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-test-pack/WEB-INF/components.xml]
+INFO  - SakaiApplicationContext    - Refreshing org.sakaiproject.util.SakaiApplicationContext@6933b6c6: startup date [Wed Mar 27 19:20:54 CET 2024]; root of context hierarchy
+INFO  - ComponentsLoader           - load: loading components from: /tmp/components
+INFO  - ComponentsLoader           - /tmp/components/sakai-jarloadorder-pack
+INFO  - XmlBeanDefinitionReader    - Loading XML bean definitions from file [/tmp/components/sakai-jarloadorder-pack/WEB-INF/components.xml]

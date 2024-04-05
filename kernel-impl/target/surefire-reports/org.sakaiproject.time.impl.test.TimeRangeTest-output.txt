@@ -1,0 +1,9 @@
+19:23:59,667   INFO BasicTimeService:116 - init()
+19:23:59,678   INFO BasicTimeService:116 - init()
+19:23:59,679   INFO BasicTimeService:116 - init()
+19:23:59,681   INFO BasicTimeService:116 - init()
+19:23:59,681   WARN BasicTimeService:926 - parse: exception parsing: =1000-=1000 : java.lang.Exception: ==
+19:23:59,681   WARN BasicTimeService:926 - parse: exception parsing: =1000 : java.lang.Exception: =, * null
+19:23:59,682   WARN BasicTimeService:926 - parse: exception parsing: junk : java.lang.NullPointerException
+19:23:59,682   INFO BasicTimeService:116 - init()
+19:23:59,683   INFO BasicTimeService:116 - init()

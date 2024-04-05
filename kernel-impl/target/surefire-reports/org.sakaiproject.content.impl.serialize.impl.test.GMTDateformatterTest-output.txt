@@ -1,0 +1,2 @@
+19:21:20,854   INFO GMTDateformatterTest:88 -  Took 58 ms 0.0029 per parse
+19:21:20,884   INFO GMTDateformatterTest:98 -  Took 28 ms 0.0014 per format

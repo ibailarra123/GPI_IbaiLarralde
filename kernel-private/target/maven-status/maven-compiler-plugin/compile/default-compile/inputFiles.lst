@@ -1,0 +1,16 @@
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/AddablePersistenceUnit.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/SakaiIdentifierGeneratorProvider.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/serialization/SerializableRepository.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/AdditionalHibernateMappings.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/impl/AdditionalHibernateMappingsImpl.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/SakaiPersistenceUnitManager.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/Repository.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/type/InstantTypeDescriptor.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/HibernateUtils.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/serialization/BasicSerializableRepository.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/id/hbm/IdGenerator.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/HibernateCrudRepository.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/CrudRepository.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/springframework/orm/hibernate/type/InstantType.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/AssignableUUIDGenerator.java
+/home/ibailarralde/Desktop/sakai/kernel/kernel-private/src/main/java/org/sakaiproject/hibernate/HibernateCriterionUtils.java

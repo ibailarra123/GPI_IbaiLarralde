@@ -1,0 +1,404 @@
+19:21:35,991   INFO TestComponentManagerContainer:85 - Starting Component Manager with [../kernel-impl/src/main/webapp/WEB-INF/components.xml]
+19:21:36,045   WARN SpringCompMgr:354 - loadComponents: cannot establish a root directory for the components packages
+19:21:36,066   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/components.xml]
+19:21:36,264   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/component-components.xml]
+19:21:36,286   INFO DefaultBeanDefinitionDocumentReader:133 - Skipped XML bean definition file due to specified profiles [jmx] not matching: file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/component-components.xml]
+19:21:36,287   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/configstore-components.xml]
+19:21:36,304   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/alias-components.xml]
+19:21:36,327   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/db-components.xml]
+19:21:36,381   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/site-components.xml]
+19:21:36,418   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/authz-components.xml]
+19:21:36,435   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/email-components.xml]
+19:21:36,453   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/tool-components.xml]
+19:21:36,469   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/cluster-components.xml]
+19:21:36,476   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/antivirus-components.xml]
+19:21:36,482   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/content-components.xml]
+19:21:36,501   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/conditions-components.xml]
+19:21:36,518   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/entity-components.xml]
+19:21:36,524   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/user-components.xml]
+19:21:36,549   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/event-components.xml]
+19:21:36,571   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/memory-components.xml]
+19:21:36,584   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/util-components.xml]
+19:21:36,599   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/time-components.xml]
+19:21:36,609   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/src/main/webapp/WEB-INF/messagebundle-components.xml]
+19:21:36,651   INFO SakaiApplicationContext:583 - Refreshing org.sakaiproject.util.SakaiApplicationContext@365185bd: startup date [Wed Mar 27 19:21:36 CET 2024]; root of context hierarchy
+19:21:36,657   INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [org/sakaiproject/config/sakai-configuration.xml]
+19:21:36,744   INFO SakaiProperties:400 - Loaded 121 properties from file class path resource [org/sakaiproject/config/kernel.properties]
+19:21:36,745   WARN SakaiProperties:407 - Could not load properties from class path resource [org/sakaiproject/config/bundle/default.sakai.properties]: class path resource [org/sakaiproject/config/bundle/default.sakai.properties] cannot be opened because it does not exist
+19:21:36,745   WARN SakaiProperties:407 - Could not load properties from URL [file:/opt/tomcat/placeholder.properties]: /opt/tomcat/placeholder.properties (No such file or directory)
+19:21:36,745   WARN SakaiProperties:407 - Could not load properties from URL [file:/opt/tomcat/sakai.properties]: /opt/tomcat/sakai.properties (No such file or directory)
+19:21:36,749   WARN SakaiProperties:407 - Could not load properties from URL [file:/opt/tomcat/local.properties]: /opt/tomcat/local.properties (No such file or directory)
+19:21:36,749   WARN SakaiProperties:407 - Could not load properties from URL [file:${sakai.security}security.properties]: ${sakai.security}security.properties (No such file or directory)
+19:21:36,749   INFO SakaiProperties:400 - Loaded 8 properties from file URL [file:src/test/resources/test.properties]
+19:21:36,749   INFO SakaiProperties:368 - Loaded a total of 123 properties
+19:21:37,074   INFO ThreadLocalComponent:77 - init()
+19:21:37,093   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:21:37,097   INFO BasicConfigurationService:156 - Configured 0 secured key names: []
+19:21:37,098   INFO BasicConfigurationService:914 - Adding 1 properties from local0
+19:21:37,098   INFO BasicConfigurationService:914 - Adding 121 properties from kernel.properties
+19:21:37,101   INFO BasicConfigurationService:923 - Promoted to system property: system.test.key
+19:21:37,102   INFO BasicConfigurationService:914 - Adding 8 properties from test.properties
+19:21:37,102   INFO BasicConfigurationService:176 - Configured 1 secured keys from all sources
+19:21:37,103   INFO BasicConfigurationService:177 - Loaded 128 config items from all initial sources
+19:21:37,103   INFO BasicConfigurationService:181 - Dereference Initial: Changed (dereferenced) 0 item values out of 129 initial config items
+19:21:37,207   INFO SakaiBasicDataSource:149 - init()
+19:21:37,213   INFO HikariDataSource:95 - sakai - Starting...
+19:21:37,444   INFO PoolBase:480 - sakai - Driver does not support get/set network timeout for connections. (feature not supported)
+19:21:37,486   INFO HikariDataSource:107 - sakai - Start completed.
+19:21:37,522   INFO AdditionalHibernateMappingsImpl:175 - Add mapping resource [org/sakaiproject/config/api/HibernateConfigItem.hbm.xml]
+19:21:37,523   INFO AdditionalHibernateMappingsImpl:120 - Add annotated class [org.sakaiproject.content.hbm.Lock]
+19:21:37,523   INFO AdditionalHibernateMappingsImpl:120 - Add annotated class [org.sakaiproject.messagebundle.api.MessageBundleProperty]
+19:21:37,527   INFO LocalContainerEntityManagerFactoryBean:356 - Building JPA container EntityManagerFactory for persistence unit 'sakai'
+19:21:37,538   INFO LogHelper:46 - HHH000204: Processing PersistenceUnitInfo [
+	name: sakai
+	...]
+19:21:37,603   INFO Version:54 - HHH000412: Hibernate Core {4.3.11.Final}
+19:21:37,605   INFO Environment:224 - HHH000205: Loaded properties from resource hibernate.properties: {hibernate.dialect=org.hibernate.dialect.HSQLDialect, hibernate.cache.region.factory_class=org.hibernate.cache.SingletonEhCacheRegionFactory, hibernate.connection.url=jdbc:hsqldb:mem:test, hibernate.show_sql=false, hibernate.bytecode.use_reflection_optimizer=false, hibernate.connection.driver_class=org.hsqldb.jdbcDriver, hibernate.hbm2ddl.auto=create}
+19:21:37,607   INFO Environment:346 - HHH000021: Bytecode provider name : javassist
+19:21:37,717   INFO Version:66 - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+19:21:37,857   INFO Dialect:145 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+19:21:37,993   INFO ASTQueryTranslatorFactory:47 - HHH000397: Using ASTQueryTranslatorFactory
+19:21:38,140   INFO UpdateTimestampsCache:72 - HHH000250: Starting update timestamps cache at region: org.hibernate.cache.spi.UpdateTimestampsCache
+19:21:38,143   INFO StandardQueryCache:90 - HHH000248: Starting query cache at region: org.hibernate.cache.internal.StandardQueryCache
+19:21:38,191   WARN AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.sakaiproject.content.hbm.Lock]; using defaults.
+19:21:38,339   WARN AbstractEhcacheRegionFactory:178 - HHH020003: Could not find a specific ehcache configuration for cache named [org.sakaiproject.messagebundle.api.MessageBundleProperty]; using defaults.
+19:21:38,411   INFO SchemaUpdate:207 - HHH000228: Running hbm2ddl schema update
+19:21:38,411   INFO SchemaUpdate:218 - HHH000102: Fetching database metadata
+19:21:38,416   INFO SchemaUpdate:230 - HHH000396: Updating schema
+19:21:38,424   INFO DatabaseMetaData:147 - HHH000262: Table not found: SAKAI_CONFIG_ITEM
+19:21:38,426   INFO DatabaseMetaData:147 - HHH000262: Table not found: SAKAI_MESSAGE_BUNDLE
+19:21:38,426   INFO DatabaseMetaData:147 - HHH000262: Table not found: content_resource_lock
+19:21:38,427   INFO DatabaseMetaData:147 - HHH000262: Table not found: SAKAI_CONFIG_ITEM
+19:21:38,428   INFO DatabaseMetaData:147 - HHH000262: Table not found: SAKAI_MESSAGE_BUNDLE
+19:21:38,428   INFO DatabaseMetaData:147 - HHH000262: Table not found: content_resource_lock
+19:21:38,429   INFO DatabaseMetaData:147 - HHH000262: Table not found: SAKAI_CONFIG_ITEM
+19:21:38,429   INFO DatabaseMetaData:147 - HHH000262: Table not found: SAKAI_MESSAGE_BUNDLE
+19:21:38,430   INFO DatabaseMetaData:147 - HHH000262: Table not found: content_resource_lock
+19:21:38,433   INFO SchemaUpdate:267 - HHH000232: Schema update complete
+19:21:38,553   INFO LocalContainerEntityManagerFactoryBean:414 - Initialized JPA EntityManagerFactory for persistence unit 'sakai'
+19:21:38,567   INFO HibernateTransactionManager:360 - Using DataSource [org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy@593e824f] of Hibernate SessionFactory for HibernateTransactionManager
+19:21:38,600   INFO BasicSqlService:234 - init(): vendor: hsqldb autoDDL: true deadlockRetries: 5
+19:21:38,606   INFO HibernateConfigItemDaoImpl:57 - init: autoDDL sakai_config_item
+19:21:38,679   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    30760 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    1739673 nanoseconds spent preparing 1 JDBC statements;
+    110207 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    33113 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:38,689   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    23861 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    5014466 nanoseconds spent preparing 1 JDBC statements;
+    68944 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    6008 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:38,692   INFO BasicConfigurationService:198 - Found and loaded 0 config values from 1 configuration providers
+19:21:38,692   INFO BasicConfigurationService:220 - init()
+19:21:38,701   INFO Log4jConfigurationManager:140 - init(): enabled: true
+19:21:38,801   INFO SakaiCacheManagerFactoryBean:173 - Initializing EhCache CacheManager
+19:21:38,809   INFO SakaiCacheManagerFactoryBean:222 - Attempting to load default cluster caching.
+19:21:38,812   INFO BaseMemoryService:55 - INIT
+19:21:38,813   INFO EhcacheMemoryService:82 - INIT: STATUS_ALIVE, caches: [org.hibernate.cache.spi.UpdateTimestampsCache, org.hibernate.cache.internal.StandardQueryCache]
+19:21:38,814   INFO EhCacheJmxRegistration:52 - Registering Cache Provider with JMXBeanServer com.sun.jmx.mbeanserver.JmxMBeanServer@756cf158
+19:21:38,819   INFO BaseMemoryService:73 - INIT complete: new: EhcacheMemoryService
+19:21:38,821   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.user.api.UserDirectoryService) using defaults
+19:21:38,822   INFO EhcacheMemoryService:367 - Configuring ehcache (org.sakaiproject.user.api.UserDirectoryService) from Sakai config: maxElementsInMemory=100000,timeToLiveSeconds=86400,timeToIdleSeconds=86400
+19:21:38,823   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.user.api.UserDirectoryService.callCache) using defaults
+19:21:38,824   INFO BaseUserDirectoryService:593 - Creating user callCache observer for event based cache expiration (for local caches)
+19:21:38,836   INFO BaseEventTrackingService:158 - org.sakaiproject.event.impl.ClusterEventTracking$$EnhancerBySpringCGLIB$$6178efa6@5f95f1e1.init()
+19:21:38,838   INFO ClusterEventTracking:255 - period: 5, batch: true, checkDb: true
+19:21:38,838   INFO ClusterEventTracking:258 - Server Start: serverId=ubuntu, serverInstance=1711563698692, serverIdInstance=ubuntu-1711563698692, version=unknown/unknown
+19:21:38,841   INFO FunctionManagerComponent:61 - init()
+19:21:38,846   INFO PasswordPolicyProviderDefaultImpl:137 - PasswordPolicyProviderDefaultImpl.init(): minEntropy=16, mediumEntropy=32, highEntropy=48, maxSequenceLength=3
+19:21:38,847   INFO BaseUserDirectoryService:640 - init(): PasswordPolicyProvider (org.sakaiproject.user.api.PasswordPolicyProvider): none
+19:21:38,848   INFO BaseUserDirectoryService:642 - init(): provider: none separateIdEid: true
+19:21:38,848   INFO DbUserService:163 - init(): table: SAKAI_USER external locks: true
+19:21:38,848   INFO DbUserService:165 - User ID/EID mapping Cache [org.sakaiproject.user.api.UserDirectoryService]
+19:21:38,848   INFO PrecachingDbUserService:121 - User precache not scheduled for startup run
+19:21:38,848   INFO PrecachingDbUserService:149 - User precache not scheduled for daily run
+19:21:38,851   INFO EntityManagerComponent:187 - init()
+19:21:38,851   INFO DbAliasService:156 - init(): table: SAKAI_ALIAS external locks: true checkOld: false
+19:21:38,858   INFO SakaiBasicDataSource:149 - init()
+19:21:38,963   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.site.impl.SiteCacheImpl.cache) using defaults
+19:21:38,963   INFO SiteCacheSafe:85 - Creating SiteCacheImpl.cache observer for event based cache expiration (for local caches)
+19:21:38,964   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.site.impl.SiteCacheImpl.cacheTools) using defaults
+19:21:38,965   INFO EhcacheMemoryService:410 - Configured ehcache (org.sakaiproject.site.impl.SiteCacheImpl.cacheTools) from inputs: org.sakaiproject.memory.impl.EhcacheCache$1@52b06bef
+19:21:38,965   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.site.impl.SiteCacheImpl.cachePages) using defaults
+19:21:38,965   INFO EhcacheMemoryService:410 - Configured ehcache (org.sakaiproject.site.impl.SiteCacheImpl.cachePages) from inputs: org.sakaiproject.memory.impl.EhcacheCache$1@52b06bef
+19:21:38,966   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.site.impl.SiteCacheImpl.cacheGroups) using defaults
+19:21:38,966   INFO EhcacheMemoryService:410 - Configured ehcache (org.sakaiproject.site.impl.SiteCacheImpl.cacheGroups) from inputs: org.sakaiproject.memory.impl.EhcacheCache$1@52b06bef
+19:21:38,966   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.site.api.SiteService.userSiteCache) using defaults
+19:21:38,973   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.authz.api.SecurityService.cache) using defaults
+19:21:38,974   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.authz.api.SecurityService.superCache) using defaults
+19:21:38,974   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.authz.api.SecurityService.contentCache) using defaults
+19:21:38,975   INFO DbSiteService:172 - init(): site table: SAKAI_SITE external locks: true
+19:21:38,984   INFO BaseNotificationService:216 - org.sakaiproject.event.impl.DbNotificationService$$EnhancerBySpringCGLIB$$8a1da21f@2ab26378.init() started
+19:21:38,987   INFO BaseNotificationService:229 - org.sakaiproject.event.impl.DbNotificationService$$EnhancerBySpringCGLIB$$8a1da21f@2ab26378.init() complete
+19:21:38,987   INFO DbNotificationService:118 - .init(): table: SAKAI_NOTIFICATION locks-in-db: false
+19:21:39,399   INFO BaseAuthzGroupService:317 - init(): provider: none
+19:21:39,403   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.authz.impl.DbAuthzGroupService.realmRoleGroupCache) using defaults
+19:21:39,404   INFO DbAuthzGroupService:250 - init(): table: SAKAI_REALM external locks: true
+19:21:39,404   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.authz.impl.DbAuthzGroupService.authzUserGroupIdsCache) using defaults
+19:21:39,405   INFO EhcacheMemoryService:367 - Configuring ehcache (org.sakaiproject.authz.impl.DbAuthzGroupService.authzUserGroupIdsCache) from Sakai config: maxElementsInMemory=2000,timeToLiveSeconds=21600,timeToIdleSeconds=21600
+19:21:39,406   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.authz.impl.DbAuthzGroupService.maintainRolesCache) using defaults
+19:21:39,448   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.time.impl.BasicTimeService.userLocaleCache) using defaults
+19:21:39,462   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.user.impl.BasePreferencesService.preferences) using defaults
+19:21:39,463   INFO BasePreferencesService:231 - init()
+19:21:39,463   INFO DbPreferencesService:114 - init(): table: SAKAI_PREFERENCES locks-in-db: false
+19:21:39,465   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.time.impl.BasicTimeService.userTimezoneCache) using defaults
+19:21:39,466   INFO BasicTimeService:116 - init()
+19:21:39,474   INFO BasicEmailService:404 - init(): smtp: null bounces to: postmaster@localhost maxRecipients: 100 testMode: false
+19:21:39,476   INFO BaseDigestService:654 - init(): email digests will be checked in 349 seconds and then every 3600 seconds while the server is running
+19:21:39,477   INFO DbDigestService:121 - init(): table: SAKAI_DIGEST locks-in-db: false
+19:21:39,500   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.event.api.UsageSessionService.recentUserRefresh) using defaults
+19:21:39,501   INFO UsageSessionServiceAdaptor:218 - init()
+19:21:39,502   INFO RebuildBreakdownServiceImpl:100 - INIT: session clustering=false
+19:21:39,530   INFO ToolComponent:248 - init(): hidden tools: 
+19:21:39,568   INFO SakaiClusterService:353 - Switching status from UNKNOWN to STARTING
+19:21:39,570   INFO SakaiClusterService:253 - init: refresh: 60 expired: 600 ghostingPercent: 100
+19:21:39,757   INFO DbResourceTypeRegistry:232 - init()
+19:21:39,767   INFO ResourceTypeRegistryImpl:80 - init()
+19:21:39,769   WARN BasicContentTypeImageService:232 - init(): Resource loader failed to load content type extensions bundle
+19:21:39,771   INFO UuidV4IdComponent:51 - init()
+19:21:39,775   INFO FormattedTextImpl:140 - FormattedText error handling: notify; log errors=false; return to tool=false; notify user=true; details to user=false
+19:21:39,846   INFO FormattedTextImpl:185 - AntiSamy INIT default security level (high), policy files: high=file:/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/target/classes/antisamy/high-security-policy.xml, low=file:/home/ibailarralde/Desktop/sakai/kernel/kernel-impl/target/classes/antisamy/low-security-policy.xml
+19:21:39,881   INFO DbContentService:449 - Migration of data to the Binary format will be performed by this node 
+19:21:39,908   INFO BaseContentService:865 - Loaded Storage as org.sakaiproject.content.impl.DbContentService$DbStorage@4c41a177 for org.sakaiproject.content.impl.DbContentService@2faf6e4a
+19:21:39,912   INFO BaseContentService:931 - init(): site quota: 1048576, dropbox quota: 1048576, body path: null volumes: 
+19:21:39,912   INFO DbContentService:476 - init(): tables: CONTENT_COLLECTION CONTENT_RESOURCE CONTENT_RESOURCE_BODY_BINARY CONTENT_ENTITY_GROUPS locks-in-db: false bodyPath: null storage: org.sakaiproject.content.impl.DbContentService$DbStorage@4c41a177
+19:21:39,925   INFO ClamAVScanner:91 - init()
+19:21:39,937   INFO DropboxContextObserver:200 - init()
+19:21:39,948   INFO UserNotificationPreferencesRegistrationImpl:422 - UserPreferencesRegistrationImpl.init()
+19:21:39,952   INFO BaseConditionService:45 - init()
+19:21:39,957   INFO UserAuthnComponent:68 - init()
+19:21:39,962   INFO AuthenticationCache:68 - INIT
+19:21:39,966   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.user.api.AuthenticationManager) using defaults
+19:21:39,966   INFO EhcacheMemoryService:367 - Configuring ehcache (org.sakaiproject.user.api.AuthenticationManager) from Sakai config: maxElementsInMemory=250,timeToLiveSeconds=120,timeToIdleSeconds=120
+19:21:39,971   INFO AuthnCacheWatcher:85 - init()
+19:21:39,974   INFO EhcacheMemoryService:354 - Created ehcache (org.sakaiproject.event.api.ActivityService.userActivityCache) using defaults
+19:21:39,976   INFO EventQueryServiceImpl:291 - org.sakaiproject.event.impl.EventQueryServiceImpl@d13379e.init()
+19:21:39,980   INFO BaseLearningResourceStoreService:102 - LRS did not search for existing LearningResourceStoreProviders in the system (ac=org.sakaiproject.util.SakaiApplicationContext@365185bd: startup date [Wed Mar 27 19:21:36 CET 2024]; root of context hierarchy, enabled=false)
+19:21:39,981   INFO BaseLearningResourceStoreService:123 - LRS INIT: enabled=false
+19:21:39,992   INFO MBeanExporter:431 - Registering beans for JMX exposure on startup
+19:21:39,994   INFO MBeanExporter:672 - Located MBean 'bean:name=org.sakaiproject.config.impl.ConfigurationMBean': registering with JMX server as MBean [bean:name=org.sakaiproject.config.impl.ConfigurationMBean]
+19:21:39,997   INFO MBeanExporter:431 - Registering beans for JMX exposure on startup
+19:21:39,997   INFO MBeanExporter:679 - Located managed bean 'Hibernate:type=statistics': registering with JMX server as MBean [Hibernate:type=statistics]
+19:21:40,013   INFO MBeanExporter:431 - Registering beans for JMX exposure on startup
+19:21:40,013   INFO MBeanExporter:679 - Located managed bean 'org.sakaiproject:name=Sessions': registering with JMX server as MBean [org.sakaiproject:name=Sessions]
+19:21:40,603   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    56721 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    2744070 nanoseconds spent preparing 1 JDBC statements;
+    94851 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    19993 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,610   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    19383 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    92984 nanoseconds spent preparing 1 JDBC statements;
+    13049 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    119457 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,614   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    17727 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    247518 nanoseconds spent preparing 1 JDBC statements;
+    15965 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    6510 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,682   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    21191 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    68650 nanoseconds spent preparing 1 JDBC statements;
+    11580 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5582 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,696   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    19576 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    75120 nanoseconds spent preparing 1 JDBC statements;
+    14021 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5709 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,743   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    22182 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    68303 nanoseconds spent preparing 1 JDBC statements;
+    12603 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    23429 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,757   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    22286 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    67574 nanoseconds spent preparing 1 JDBC statements;
+    11692 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5216 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,851   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    22334 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    66629 nanoseconds spent preparing 1 JDBC statements;
+    145379 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    6537 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,869   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    24406 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    87435 nanoseconds spent preparing 1 JDBC statements;
+    19465 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    6255 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,881   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    25225 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    68651 nanoseconds spent preparing 1 JDBC statements;
+    12243 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5904 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,888   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    22828 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    106569 nanoseconds spent preparing 1 JDBC statements;
+    86350 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    9068 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,897   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    221539 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    72253 nanoseconds spent preparing 1 JDBC statements;
+    12768 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    6030 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,912   INFO ContentHostingServiceTest:115 - commited folder:/admin/folder1/
+19:21:40,915   INFO ContentHostingServiceTest:145 - commited folder:/admin/沒有已選要刪除的附件/
+19:21:40,919   INFO StatisticalLoggingSessionEventListener:275 - Session Metrics {
+    29303 nanoseconds spent acquiring 1 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    67377 nanoseconds spent preparing 1 JDBC statements;
+    13874 nanoseconds spent executing 1 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    5371 nanoseconds spent executing 1 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+19:21:40,925   INFO ContentHostingServiceTest:183 - saved: /admin/沒有已選要刪除的附件/someFile.txt
+19:21:40,927   INFO ContentHostingServiceTest:184 - url is: http://localhost:8080/access/content/admin/%E6%B2%92%E6%9C%89%E5%B7%B2%E9%81%B8%E8%A6%81%E5%88%AA%E9%99%A4%E7%9A%84%E9%99%84%E4%BB%B6/someFile.txt
+19:21:40,927   INFO ContentHostingServiceTest:185 - relative url:/access/content/admin/%E6%B2%92%E6%9C%89%E5%B7%B2%E9%81%B8%E8%A6%81%E5%88%AA%E9%99%A4%E7%9A%84%E9%99%84%E4%BB%B6/someFile.txt
+19:21:40,927   INFO ContentHostingServiceTest:187 - decoded url: /access/content/admin/沒有已選要刪除的附件/someFile.txt
+19:21:40,928   INFO SakaiApplicationContext:985 - Closing org.sakaiproject.util.SakaiApplicationContext@365185bd: startup date [Wed Mar 27 19:21:36 CET 2024]; root of context hierarchy
+19:21:40,929   INFO BaseLearningResourceStoreService:136 - LRS DESTROY
+19:21:40,930   INFO EventQueryServiceImpl:300 - org.sakaiproject.event.impl.EventQueryServiceImpl@d13379e.destroy()
+19:21:40,932   INFO UserAuthnComponent:76 - destroy()
+19:21:40,933   INFO DropboxContextObserver:211 - destroy()
+19:21:40,933   INFO BaseContentService:959 - destroy()
+19:21:40,934   INFO UuidV4IdComponent:59 - destroy()
+19:21:40,934   INFO BasicContentTypeImageService:262 - destroy()
+19:21:40,934   INFO ResourceTypeRegistryImpl:92 - destroy()
+19:21:40,934   INFO SakaiClusterService:353 - Switching status from RUNNING to STOPPING
+19:21:40,935   INFO SakaiClusterService:270 - destroy()
+19:21:40,935   INFO MBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+19:21:40,936   INFO MBeanExporter:243 - Unregistering JMX-exposed beans
+19:21:40,936   INFO ToolComponent:256 - destroy()
+19:21:40,936   INFO UsageSessionServiceAdaptor:250 - destroy()
+19:21:40,936   INFO BaseDigestService:695 - destroy()
+19:21:40,936   INFO BasicEmailService:415 - destroy()
+19:21:40,937   INFO BasicTimeService:145 - destroy()
+19:21:40,937   INFO BasePreferencesService:247 - destroy()
+19:21:40,937   INFO DbAuthzGroupService:308 - org.sakaiproject.authz.impl.DbAuthzGroupService$$EnhancerBySpringCGLIB$$c854fd3d@280d5a82.destroy()
+19:21:40,938   INFO BaseNotificationService:256 - org.sakaiproject.event.impl.DbNotificationService$$EnhancerBySpringCGLIB$$8a1da21f@2ab26378.destroy()
+19:21:40,938   INFO BaseSiteService:530 - destroy()
+19:21:40,938   INFO SakaiSecurity:599 - destroy()
+19:21:40,939   INFO MBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+19:21:40,939   INFO MBeanExporter:243 - Unregistering JMX-exposed beans
+19:21:40,939   INFO BaseAliasService:382 - destroy()
+19:21:40,939   INFO EntityManagerComponent:199 - destroy()
+19:21:40,939   INFO BaseUserDirectoryService:694 - destroy()
+19:21:40,939   INFO FunctionManagerComponent:69 - destroy()
+19:21:40,940   INFO BaseEventTrackingService:170 - org.sakaiproject.event.impl.ClusterEventTracking$$EnhancerBySpringCGLIB$$6178efa6@5f95f1e1.destroy()
+19:21:40,941   WARN DisposableBeanAdapter:374 - Invocation of destroy method 'destroy' failed on bean with name 'org.sakaiproject.memory.api.MemoryService': java.lang.IllegalStateException: The org.sakaiproject.authz.api.SecurityService.contentCache Cache is not alive (STATUS_SHUTDOWN)
+19:21:40,942   INFO SakaiCacheManagerFactoryBean:277 - Shutting down EhCache CacheManager
+19:21:40,944   INFO MBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+19:21:40,945   INFO MBeanExporter:243 - Unregistering JMX-exposed beans
+19:21:40,946   INFO Log4jConfigurationManager:148 - destroy()
+19:21:40,946   INFO LocalContainerEntityManagerFactoryBean:590 - Closing JPA EntityManagerFactory for persistence unit 'sakai'
+19:21:40,947   INFO BasicConfigurationService:234 - destroy()
+19:21:40,947   INFO BasicSqlService:242 - destroy()
+19:21:40,947   INFO HikariDataSource:347 - sakai - Shutdown initiated...
+19:21:40,947   INFO HikariPool:204 - sakai - Close initiated...
+19:21:40,949   INFO HikariPool:238 - sakai - Closed.
+19:21:40,949   INFO HikariDataSource:349 - sakai - Shutdown completed.
+19:21:40,949   INFO SessionComponent:235 - destroy()
+19:21:40,950   INFO ThreadLocalComponent:85 - destroy()

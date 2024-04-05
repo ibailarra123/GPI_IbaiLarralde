@@ -1,0 +1,8 @@
+19:21:31,764   INFO ProfileSerializerTest:60 - Write 16000 Entities took 113ms 
+19:21:31,767   INFO ProfileSerializerTest:61 - Write 16000 Entities took 7 us/entity 
+19:21:31,767   INFO ProfileSerializerTest:62 - Write 16000 Entities took 35173072 bytes overhead 
+19:21:31,767   INFO ProfileSerializerTest:63 - Write 16000 Entities took 2198 bytes/entity overhead 
+19:21:33,864   INFO ProfileSerializerTest:78 - Read 16000 Entities took 78ms 
+19:21:33,864   INFO ProfileSerializerTest:79 - Read 16000 Entities took 4 us/entity 
+19:21:33,864   INFO ProfileSerializerTest:80 - Read 16000 Entities took 40384200 bytes overhead 
+19:21:33,865   INFO ProfileSerializerTest:81 - Read 16000 Entities took 2524 bytes/entity overhead 

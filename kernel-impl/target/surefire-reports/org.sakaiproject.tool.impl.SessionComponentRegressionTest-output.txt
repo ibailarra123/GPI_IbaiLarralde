@@ -1,0 +1,58 @@
+19:24:04,669   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,686   INFO SessionComponent:235 - destroy()
+19:24:04,687   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,688   INFO SessionComponent:235 - destroy()
+19:24:04,689   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,689   INFO SessionComponent:235 - destroy()
+19:24:04,690   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,695   INFO SessionComponent:235 - destroy()
+19:24:04,696   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,697   INFO SessionComponent:235 - destroy()
+19:24:04,698   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,699   INFO SessionComponent:235 - destroy()
+19:24:04,700   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,701   INFO SessionComponent:235 - destroy()
+19:24:04,701   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,702   INFO SessionComponent:235 - destroy()
+19:24:04,704   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,705   INFO SessionComponent:235 - destroy()
+19:24:04,706   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,706   INFO SessionComponent:235 - destroy()
+19:24:04,708   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,709   INFO SessionComponent:235 - destroy()
+19:24:04,710   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:04,710   INFO SessionComponent:235 - destroy()
+19:24:04,712   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:06,274   INFO SessionComponent:235 - destroy()
+19:24:06,277   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:06,282   INFO SessionComponent:235 - destroy()
+19:24:06,286   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:06,292   INFO SessionComponent:235 - destroy()
+19:24:06,303   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:06,305   INFO SessionComponent:235 - destroy()
+19:24:06,310   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:06,313   INFO SessionComponent:235 - destroy()
+19:24:06,315   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:06,317   INFO SessionComponent:235 - destroy()
+19:24:06,319   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:07,325   INFO SessionComponent:235 - destroy()
+19:24:07,328   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:07,331   INFO SessionComponent:235 - destroy()
+19:24:07,334   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:07,345   INFO SessionComponent:235 - destroy()
+19:24:07,349   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:07,356   INFO SessionComponent:235 - destroy()
+19:24:07,358   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:07,361   INFO SessionComponent:235 - destroy()
+19:24:07,363   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:08,922   INFO SessionComponent:235 - destroy()
+19:24:08,931   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:08,933   INFO SessionComponent:235 - destroy()
+19:24:08,942   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:08,948   INFO SessionComponent:235 - destroy()
+19:24:08,952   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:08,954   INFO SessionComponent:235 - destroy()
+19:24:08,955   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:08,955   INFO SessionComponent:235 - destroy()
+19:24:08,957   INFO SessionComponent:217 - init(): interval: 1800 refresh: 60
+19:24:08,958   INFO SessionComponent:235 - destroy()

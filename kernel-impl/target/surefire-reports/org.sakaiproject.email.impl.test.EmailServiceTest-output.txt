@@ -1,0 +1,9 @@
+19:23:44,191   INFO EmailServiceTest:80 - Setting up test case...
+19:23:44,214   INFO BasicEmailService:404 - init(): smtp: localhost:8025 bounces to: postmaster@localhost maxRecipients: 100 testMode: false
+19:23:44,285   INFO BasicEmailService:1499 - Email.sendMail: from: postmaster@localhostsubject: Super cool test subject to: to@example.com too@example.com headerTo{to}: otherPerson@example.com headerTo{cc}: otherPerson@example.com replyTo: from@example.com
+19:23:44,301   INFO BasicEmailService:1499 - Email.sendMail: from: postmaster@localhostsubject: Super cool test subject to: to@example.com test2@example.com headerTo{to}: otherPerson@example.com replyTo: replyTo@example.com
+19:23:44,319   INFO BasicEmailService:1499 - Email.sendMail: from: postmaster@localhostsubject: Super cool test subject to: to@example.com too@example.com headerTo{to}: otherPerson@example.com headerTo{cc}: otherPerson@example.com replyTo: replyTo@example.com with 2 attachments
+19:23:44,333   INFO BasicEmailService:1499 - Email.sendMail: from: postmaster@localhostsubject: Super cool test subject with attachments to: to@example.com too@example.com headerTo{to}: otherPerson@example.com headerTo{cc}: otherPerson@example.com replyTo: from@example.com with 2 attachments
+19:23:44,346   INFO BasicEmailService:1499 - Email.sendMail: from: postmaster@localhostsubject: Super cool test subject to: to@example.com too@example.com headerTo{to}: otherPerson@example.com replyTo: replyTo@example.com
+19:23:44,355   INFO BasicEmailService:1499 - Email.sendMail: from: postmaster@localhostsubject: Super cool test subject to: to@example.com too@example.com replyTo: from@example.com
+19:23:44,357   INFO BasicEmailService:415 - destroy()
