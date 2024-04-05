@@ -1,13 +1,16 @@
 ## GPI_IbaiLarralde
 
-#Commit
+Commit
+
 Se va a utilizar la politica de commit "Conventional Commits Specification":
 La especificación de Conventional Commits es una convención ligera pero poderosa para estructurar los mensajes de commit. Sigue este formato:
 
 <tipo>[opcional alcance]: <descripción>
 
-- [opcional cuerpo]
-- [opcional pie de página]
+[opcional cuerpo]
+
+[opcional pie de página]
+
 - <tipo>: Indica el propósito del cambio. Puede ser feat (nueva característica), fix (corrección de errores), docs (documentación), etc.
 - [opcional alcance]: Opcionalmente, puedes incluir un alcance que indique el contexto del cambio.
 - <descripción>: Breve descripción del cambio.
