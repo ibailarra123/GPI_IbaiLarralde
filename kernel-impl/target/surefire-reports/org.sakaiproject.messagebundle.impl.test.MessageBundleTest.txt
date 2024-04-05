@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: org.sakaiproject.messagebundle.impl.test.MessageBundleTest
--------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.46 s - in org.sakaiproject.messagebundle.impl.test.MessageBundleTest
