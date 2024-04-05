@@ -1,6 +1,6 @@
 ## GPI_IbaiLarralde
 
-Commit
+* Commit
 
 Se va a utilizar la politica de commit "Conventional Commits Specification":
 La especificación de Conventional Commits es una convención ligera pero poderosa para estructurar los mensajes de commit. Sigue este formato:
@@ -16,3 +16,11 @@ La especificación de Conventional Commits es una convención ligera pero podero
 - <descripción>: Breve descripción del cambio.
 - [opcional cuerpo]: Detalles adicionales sobre el cambio, como contexto, razón de la modificación, etc.
 - [opcional pie de página]: Información adicional como enlaces a tareas, problemas o referencias a otras ramas
+
+
+* Branching
+
+Desarrollo Línea Principal (Mainline Development):
+
+Rama Principal (main o master): Esta rama representa el estado de producción estable del software.
+Los cambios directamente a esta rama deben ser realizados a través de pull requests (PR) desde ramas de características o hotfixes después de una revisión apropiada.
