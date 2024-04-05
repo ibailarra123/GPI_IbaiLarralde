@@ -1,6 +1,6 @@
 ## GPI_IbaiLarralde
 
-* Commit
+Commit
 
 Se va a utilizar la politica de commit "Conventional Commits Specification":
 La especificación de Conventional Commits es una convención ligera pero poderosa para estructurar los mensajes de commit. Sigue este formato:
@@ -18,7 +18,8 @@ La especificación de Conventional Commits es una convención ligera pero podero
 - [opcional pie de página]: Información adicional como enlaces a tareas, problemas o referencias a otras ramas
 
 
-* Branching
+
+Branching
 
 Desarrollo Línea Principal (Mainline Development):
 
