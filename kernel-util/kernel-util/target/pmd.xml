@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.38.0" timestamp="2024-05-23T11:30:19.050">
+<file name="/home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/NumberUtil.java">
+<violation beginline="27" endline="27" begincolumn="1" endcolumn="24" rule="UnnecessaryImport" ruleset="Code Style" package="org.sakaiproject.util" class="NumberUtil" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'java.util.Locale'
+</violation>
+<violation beginline="34" endline="60" begincolumn="25" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="org.sakaiproject.util" class="NumberUtil" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/Resource.java">
+<violation beginline="34" endline="51" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="org.sakaiproject.util" class="Resource" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="34" endline="51" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" package="org.sakaiproject.util" class="Resource" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'Resource' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)'
+</violation>
+<violation beginline="43" endline="50" begincolumn="19" endcolumn="5" rule="ReturnEmptyCollectionRatherThanNull" ruleset="Error Prone" package="org.sakaiproject.util" class="Resource" method="getResourceLoader" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_errorprone.html#returnemptycollectionratherthannull" priority="1">
+Return an empty collection rather than null.
+</violation>
+<violation beginline="47" endline="47" begincolumn="13" endcolumn="84" rule="GuardLogStatement" ruleset="Best Practices" package="org.sakaiproject.util" class="Resource" method="getResourceLoader" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#guardlogstatement" priority="2">
+Logger calls should be surrounded by log level guards.
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/ResourceLoaderMessageSource.java">
+<violation beginline="47" endline="51" begincolumn="15" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="ResourceLoaderMessageSource" method="resolveCode" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'resolveCode(String, Locale)' is missing an @Override annotation.
+</violation>
+<violation beginline="53" endline="56" begincolumn="15" endcolumn="5" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="ResourceLoaderMessageSource" method="resolveCodeWithoutArguments" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'resolveCodeWithoutArguments(String, Locale)' is missing an @Override annotation.
+</violation>
+<violation beginline="58" endline="60" begincolumn="43" endcolumn="5" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="org.sakaiproject.util" class="ResourceLoaderMessageSource" method="setCacheSeconds" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="/home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/UserNotificationPreferencesRegistrationImpl.java">
+<violation beginline="95" endline="95" begincolumn="3" endcolumn="3" rule="EmptyStatementNotInLoop" ruleset="Error Prone" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="UserNotificationPreferencesRegistrationImpl" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_errorprone.html#emptystatementnotinloop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="128" endline="130" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="getDefaultValue" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getDefaultValue()' is missing an @Override annotation.
+</violation>
+<violation beginline="143" endline="145" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="getPrefix" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getPrefix()' is missing an @Override annotation.
+</violation>
+<violation beginline="158" endline="160" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="getType" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getType()' is missing an @Override annotation.
+</violation>
+<violation beginline="173" endline="186" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="getOptions" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getOptions()' is missing an @Override annotation.
+</violation>
+<violation beginline="236" endline="242" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="getSectionTitle" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getSectionTitle()' is missing an @Override annotation.
+</violation>
+<violation beginline="255" endline="261" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="getSectionDescription" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getSectionDescription()' is missing an @Override annotation.
+</violation>
+<violation beginline="285" endline="287" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="isOverrideBySite" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'isOverrideBySite()' is missing an @Override annotation.
+</violation>
+<violation beginline="300" endline="302" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="isExpandByDefault" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'isExpandByDefault()' is missing an @Override annotation.
+</violation>
+<violation beginline="384" endline="386" begincolumn="9" endcolumn="2" rule="MissingOverride" ruleset="Best Practices" package="org.sakaiproject.util" class="UserNotificationPreferencesRegistrationImpl" method="getToolId" externalInfoUrl="https://pmd.github.io/pmd-6.38.0/pmd_rules_java_bestpractices.html#missingoverride" priority="3">
+The method 'getToolId()' is missing an @Override annotation.
+</violation>
+</file>
+<error filename="/home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/content/util/ZipContentUtil.java" msg="PMDException: Error while processing /home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/content/util/ZipContentUtil.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while processing /home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/content/util/ZipContentUtil.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:128)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:100)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:62)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:85)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:29)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 53447 out of bounds for length 22787
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at net.sourceforge.pmd.lang.java.typeresolution.PMDASMClassLoader.getImportedClasses(PMDASMClassLoader.java:118)
+	at net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver.populateClassName(ClassTypeResolver.java:1617)
+	at net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver.visit(ClassTypeResolver.java:214)
+	at net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit.jjtAccept(ASTCompilationUnit.java:44)
+	at net.sourceforge.pmd.lang.java.typeresolution.TypeResolutionFacade.initializeWith(TypeResolutionFacade.java:21)
+	at net.sourceforge.pmd.lang.java.AbstractJavaHandler$5.start(AbstractJavaHandler.java:121)
+	at net.sourceforge.pmd.SourceCodeProcessor.usesTypeResolution(SourceCodeProcessor.java:178)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:205)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:118)
+	... 10 more
+]]>
+</error>
+<error filename="/home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/ResourceLoader.java" msg="PMDException: Error while processing /home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/ResourceLoader.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while processing /home/alumno/Escritorio/sakai/kernel/kernel-util/src/main/java/org/sakaiproject/util/ResourceLoader.java
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:128)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:100)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:62)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:85)
+	at net.sourceforge.pmd.processor.PmdRunnable.call(PmdRunnable.java:29)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 32205 out of bounds for length 16875
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at org.objectweb.asm.ClassReader.<init>(Unknown Source)
+	at net.sourceforge.pmd.lang.java.typeresolution.PMDASMClassLoader.getImportedClasses(PMDASMClassLoader.java:118)
+	at net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver.populateClassName(ClassTypeResolver.java:1617)
+	at net.sourceforge.pmd.lang.java.typeresolution.ClassTypeResolver.visit(ClassTypeResolver.java:214)
+	at net.sourceforge.pmd.lang.java.ast.ASTCompilationUnit.jjtAccept(ASTCompilationUnit.java:44)
+	at net.sourceforge.pmd.lang.java.typeresolution.TypeResolutionFacade.initializeWith(TypeResolutionFacade.java:21)
+	at net.sourceforge.pmd.lang.java.AbstractJavaHandler$5.start(AbstractJavaHandler.java:121)
+	at net.sourceforge.pmd.SourceCodeProcessor.usesTypeResolution(SourceCodeProcessor.java:178)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSource(SourceCodeProcessor.java:205)
+	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:118)
+	... 10 more
+]]>
+</error>
+</pmd>
